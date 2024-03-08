@@ -1,0 +1,83 @@
+table {
+  width: 100%;
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  width: 490px;
+}
+
+.example-button-row .mat-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+/* largura das linhas do table */
+td, th {
+  width: 10%;
+  border-bottom-width: 5px;
+}
+
+/* linha zebrada de mat-table angular material */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* aumenta a borda das linhas do table */
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+/* reduz a linha de cabeçalho do table */
+tr.mat-header-row {
+  height: 30px;
+}
+
+/* reduz o largura das linha do table */
+tr.mat-row {
+  height: 30px;
+}
+
+th {
+  background-color: rgb(95, 171, 95);
+  font-size: 16px;
+  width: 3%;
+  border-bottom-width: 3px;
+}
+
+.mat-raised-button {
+  height: 28px;
+}
+
+.mat-mini-fab {
+  height: 28px;
+}
+
+.ajuste {
+  padding-bottom: -5px;
+  margin-bottom: 10px;
+}
